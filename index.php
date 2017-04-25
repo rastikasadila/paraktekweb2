@@ -1,3 +1,3 @@
 <?php 
-echo "selamat datang";
+echo "Annyeong!!";
  ?>
