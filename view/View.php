@@ -3,7 +3,7 @@
 /**
 * 
 */
-class view
+class View
 {
 	public $title;
 	public $subtitle;

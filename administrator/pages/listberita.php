@@ -1,7 +1,7 @@
 <table class="table table-bordered">
 	<thead>
 		<tr>
-			<th>#</th>
+			<th>No.</th>
 			<th>Judul</th>
 			<th>Isi</th>
 		</tr>
@@ -9,7 +9,7 @@
 	<tbody>
  <?php foreach ($isi_berita as $ib) { ?>
 		<tr>
-			<td>1</td>
+			<td><?= $ib['id_berita'] ?></td>
 			<td><?= $ib['judul'] ?></td>
 			<td><?= $ib['isi'] ?></td>
 		</tr>

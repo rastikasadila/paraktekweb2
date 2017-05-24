@@ -1,9 +1,9 @@
 <?php 
-include 'view/homeUI.php';
+require_once 'view/HomeUI.php';
 
-$home = new homeUI();
+$home = new HomeUI();
 
-$home->tampilkanHalaman();
+$home->tampilBerita();
 
 
  ?>
